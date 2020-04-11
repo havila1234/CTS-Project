@@ -1,0 +1,944 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Login in the Demoblaze",
+        "description": "",
+        "id": "demoblazeapp;login-in-the-demoblaze",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6207807004,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch web browser",
+            "match": {
+              "location": "Login_TC.launch_web_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2194436101,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user open the demoblaze homepage",
+            "match": {
+              "location": "Login_TC.user_open_the_demoblaze_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 396333373,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on the login button popup window appears",
+            "match": {
+              "location": "Login_TC.click_on_the_login_button_popup_window_appears()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6901217816,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter the username",
+            "match": {
+              "location": "Login_TC.user_enter_the_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 353989663,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter the passsword",
+            "match": {
+              "location": "Login_TC.user_enter_the_passsword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10730032779,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click on Login button to go to homePage",
+            "match": {
+              "location": "Login_TC.user_click_on_login_button_to_go_to_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@TC01_Demoblaze"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Add Laptop to cart",
+        "description": "",
+        "id": "demoblazeapp;add-laptop-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7190928076,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user tap on Laptop",
+            "match": {
+              "location": "Laptop_TC.user_tap_on_laptop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1816700555,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user will click on desired Laptop",
+            "match": {
+              "location": "Laptop_TC.user_will_click_on_desired_laptop()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4704033743,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "tap on add to cart",
+            "match": {
+              "location": "Laptop_TC.tap_on_add_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37476016,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "tap Ok on popup",
+            "match": {
+              "location": "Laptop_TC.tap_ok_on_popup()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3403078786,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user click on cart page",
+            "match": {
+              "location": "Laptop_TC.the_user_click_on_cart_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@TC02_Demoblaze"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Add Monitors to cart",
+        "description": "",
+        "id": "demoblazeapp;add-monitors-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7183399381,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "person  click on Monitor",
+            "match": {
+              "location": "Monitor_TC.person_click_on_monitor()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1502880319,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user click on desired Monitor",
+            "match": {
+              "location": "Monitor_TC.user_click_on_desired_monitor()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3760032498,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user tap add to cart",
+            "match": {
+              "location": "Monitor_TC.user_tap_add_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7680490,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "click OK in message",
+            "match": {
+              "location": "Monitor_TC.click_ok_in_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3338945238,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "click on cart",
+            "match": {
+              "location": "Monitor_TC.click_on_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@TC03_Demoblaze"
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Add phone to cart",
+        "description": "",
+        "id": "demoblazeapp;add-phone-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6378022390,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user click on Phone",
+            "match": {
+              "location": "Phone_TC.user_click_on_Phone()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1393630779,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "select the desired phone",
+            "match": {
+              "location": "Phone_TC.select_the_desired_phone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2784573548,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "select add to cart button",
+            "match": {
+              "location": "Phone_TC.select_add_to_cart_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9035839,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "handle the window alerts",
+            "match": {
+              "location": "Phone_TC.handle_the_window_alerts()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3166086678,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "person tap cart page",
+            "match": {
+              "location": "Phone_TC.person_tap_cart_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 29,
+            "name": "@TC04_Demoblaze"
+          }
+        ]
+      },
+      {
+        "line": 68,
+        "name": "Purchase a product",
+        "description": "",
+        "id": "demoblazeapp;purchase-a-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3947159764,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User launch the chrome browser",
+            "match": {
+              "location": "Purchaseproduct_TC.user_launch_the_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2048076799,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user open  demoblaze homepage",
+            "match": {
+              "location": "Purchaseproduct_TC.user_open_demoblaze_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2473583394,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "click  login button popup window appears",
+            "match": {
+              "location": "Purchaseproduct_TC.click_login_button_popup_window_appears()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2180214392,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user fill up  User_1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "User_1",
+                  "offset": 14
+                }
+              ],
+              "location": "Purchaseproduct_TC.user_fill_up(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2207657910,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user fills up the Workfromhome$12",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Workfromhome$12",
+                  "offset": 18
+                }
+              ],
+              "location": "Purchaseproduct_TC.user_fills_up_the(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112331351,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "select Login button",
+            "match": {
+              "location": "Purchaseproduct_TC.select_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3113109772,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "click on Laptop link",
+            "match": {
+              "location": "Purchaseproduct_TC.click_on_laptop_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3840008881,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user choose desired Laptop",
+            "match": {
+              "location": "Purchaseproduct_TC.user_choose_desired_laptop()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3115722694,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user select add to cart option",
+            "match": {
+              "location": "Purchaseproduct_TC.user_select_add_to_cart_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23235940,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "person  need to handle the alert",
+            "match": {
+              "location": "Purchaseproduct_TC.person_need_to_handle_the_alert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3510476539,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "tap on cart link",
+            "match": {
+              "location": "Purchaseproduct_TC.tap_on_cart_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 944338867,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "click home button to go homePage",
+            "match": {
+              "location": "Purchaseproduct_TC.click_home_button_to_go_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3162781766,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user on pc link",
+            "match": {
+              "location": "Purchaseproduct_TC.user_on_pc_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3485210547,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user has to choose desired option",
+            "match": {
+              "location": "Purchaseproduct_TC.user_has_to_choose_desired_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2122200711,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "choose add to cart",
+            "match": {
+              "location": "Purchaseproduct_TC.choose_add_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7925739,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "popup message should be handle",
+            "match": {
+              "location": "Purchaseproduct_TC.popup_message_should_be_handle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3235901455,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "tap the cart button",
+            "match": {
+              "location": "Purchaseproduct_TC.tap_the_cart_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 798601327,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "again go to homePage",
+            "match": {
+              "location": "Purchaseproduct_TC.again_go_to_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3133015951,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "click on phone link",
+            "match": {
+              "location": "Purchaseproduct_TC.click_on_phone_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2765718589,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "user clicks on a desired phone",
+            "match": {
+              "location": "Purchaseproduct_TC.user_clicks_on_a_desired_phone()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2129947644,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "add the phone to cart",
+            "match": {
+              "location": "Purchaseproduct_TC.add_the_phone_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7205119,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "handle alert message",
+            "match": {
+              "location": "Purchaseproduct_TC.handle_alert_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3646464101,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "go to cart page",
+            "match": {
+              "location": "Purchaseproduct_TC.go_to_cart_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6445149158,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "user click on purchase with credentialsABC ABC ABC 12345674544 4 2020",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ABC",
+                  "offset": 39
+                },
+                {
+                  "val": "ABC",
+                  "offset": 43
+                },
+                {
+                  "val": "ABC",
+                  "offset": 47
+                },
+                {
+                  "val": "12345674544",
+                  "offset": 51
+                },
+                {
+                  "val": "4",
+                  "offset": 63
+                },
+                {
+                  "val": "2020",
+                  "offset": 65
+                }
+              ],
+              "location": "Purchaseproduct_TC.user_click_on_purchase_with_credentials(String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1675989529,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "tap the accept button",
+            "match": {
+              "location": "Purchaseproduct_TC.tap_the_accept_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3583476845,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "logout the website",
+            "match": {
+              "location": "Purchaseproduct_TC.logout_the_website()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 37,
+            "name": "@TC05_Demoblaze"
+          },
+          {
+            "line": 1,
+            "name": "@Demoblaze"
+          }
+        ]
+      },
+      {
+        "line": 83,
+        "name": "User Exists",
+        "description": "",
+        "id": "demoblazeapp;user-exists;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5430117698,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "User launch browser",
+            "match": {
+              "location": "Userexists_TC.user_launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4697410414,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "user opens homepage",
+            "match": {
+              "location": "Userexists_TC.user_opens_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4241016020,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "click on the signup button popup window appears",
+            "match": {
+              "location": "Userexists_TC.click_on_the_signup_button_popup_window_appears()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160390323,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "enter the  User_1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "User_1",
+                  "offset": 11
+                }
+              ],
+              "location": "Userexists_TC.enter_the(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 247751709,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "user fill up the Workfromhome$12",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Workfromhome$12",
+                  "offset": 17
+                }
+              ],
+              "location": "Userexists_TC.user_fill_up_the(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3154641030,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "user click on signup button",
+            "match": {
+              "location": "Userexists_TC.user_click_on_signup_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2413969114,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "click OK on alert message",
+            "match": {
+              "location": "Userexists_TC.click_ok_on_alert_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 71,
+            "name": "@TC06_Demoblaze"
+          },
+          {
+            "line": 1,
+            "name": "@Demoblaze"
+          }
+        ]
+      },
+      {
+        "line": 86,
+        "name": "number of items in the page",
+        "description": "",
+        "id": "demoblazeapp;number-of-items-in-the-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6100520531,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "user launch demoblaze application",
+            "match": {
+              "location": "Itemscount_TC.user_launch_demoblaze_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 625285223,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "user check the number of products in a webpage",
+            "match": {
+              "location": "Itemscount_TC.user_check_the_number_of_products_in_a_webpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 245091790,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "print the number of products in a webpage",
+            "match": {
+              "location": "Itemscount_TC.print_the_number_of_products_in_a_webpage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 85,
+            "name": "@TC07_Demoblaze"
+          }
+        ]
+      },
+      {
+        "line": 92,
+        "name": "Assertion of Email Address",
+        "description": "",
+        "id": "demoblazeapp;assertion-of-email-address",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5017009114,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "user launch Web application",
+            "match": {
+              "location": "Emailidfooter_TC.user_launch_web_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4093959325,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "get the Email address from footer",
+            "match": {
+              "location": "Emailidfooter_TC.get_the_email_address_from_footer()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2142592525,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "assert the actual and expected Email addresses",
+            "match": {
+              "location": "Emailidfooter_TC.assert_the_actual_and_expected_email_addresses()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 91,
+            "name": "@TC08_Demoblaze"
+          }
+        ]
+      }
+    ],
+    "name": "DemoblazeApp",
+    "description": "",
+    "id": "demoblazeapp",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Testcase.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Demoblaze"
+      }
+    ]
+  }
+]
